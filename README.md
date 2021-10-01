@@ -72,8 +72,17 @@ Let's look at HTTP Verbs:
 
 #### RESTful Routing:
 
-- `GET /starships`
-- `GET /starships/:id`
-- `POST /starships`
-- `PATCH /starships/:id`
-- `DELETE /starships/:id`
+- `GET /starships` - index => respond with all of the starships 
+- `GET /starships/:id` - dynamic route, show route => respond with the details pertaining to 1 starship with the given id
+- `POST /starships` - Create route => responsible for creating a new starship and adding to the collection of our existing starships
+- `PATCH /starships/:id` - Update route => responsible is updating the given starship 
+- `DELETE /starships/:id`- Destroy => responsible for deleting the given starship
+
+
+#### MVC pattern 
+
+- model - portion of our application that will communicate with the database
+- views - the part in which our user sees 
+- controllers - middle man between our model and views / defining our routes inside of the controller 
+
+- can be found in in the app folder
