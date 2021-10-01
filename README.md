@@ -70,4 +70,10 @@ Let's look at HTTP Verbs:
 - Uses Rack under the hood
 - Good introduction to Rails 
 
-rackup config.ru
+#### RESTful Routing:
+
+- `GET /starships`
+- `GET /starships/:id`
+- `POST /starships`
+- `PATCH /starships/:id`
+- `DELETE /starships/:id`
